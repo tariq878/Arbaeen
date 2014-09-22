@@ -6,5 +6,7 @@
     <string name="action_settings">Settings</string>
     <string name="action_next">Next</string>
     <string name="action_back">Back</string>
+    <string name="some_text">This is a text 1</string>
+    <string name="some_hint">This is text 2</string>
     
 </resources>

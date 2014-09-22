@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dip" >
+ 
+    <TextView
+        android:id="@+id/hid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Id: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+    <TextView
+        android:id="@+id/hTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hid"
+        android:layout_below="@+id/hid"
+        android:text="Title: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+    <TextView
+        android:id="@+id/hDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hTitle"
+        android:layout_below="@+id/hTitle"
+        android:text="Hadeeth: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+</RelativeLayout>
