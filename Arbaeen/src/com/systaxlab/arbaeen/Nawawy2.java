@@ -70,7 +70,7 @@ public class Nawawy2 extends ActionBarActivity {
 		
 		btnForward = (Button)findViewById(R.id.ic_action_forward);
 		btnBack = (Button)findViewById(R.id.ic_action_back);
-		
+		//test.
 		
 		//Create the database 
 		  try {
