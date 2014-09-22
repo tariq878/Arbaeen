@@ -111,7 +111,6 @@ public class Nawawy2 extends ActionBarActivity {
 	 }
 
 	 
-
 	private String getHTML(String string) {
 		String header = "<html dir=\"rtl\"> <HEAD><title></title><style>.GodDesc { 	font-size: 22px; 	" +
 				"font-weight: normal; 	text-align: right; } @font-face {     font-family: arabic;     " +
